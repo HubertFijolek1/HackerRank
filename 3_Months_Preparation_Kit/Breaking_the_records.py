@@ -3,7 +3,6 @@
 import math
 import os
 import random
-import re
 
 #
 # Complete the 'breakingRecords' function below.
