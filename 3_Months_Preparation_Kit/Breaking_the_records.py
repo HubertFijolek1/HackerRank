@@ -4,7 +4,6 @@ import math
 import os
 import random
 import re
-import sys
 
 #
 # Complete the 'breakingRecords' function below.
