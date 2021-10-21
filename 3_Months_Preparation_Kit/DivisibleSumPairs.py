@@ -2,7 +2,6 @@
 
 import math
 import os
-import re
 
 #
 # Complete the 'divisibleSumPairs' function below.
