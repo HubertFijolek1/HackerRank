@@ -6,6 +6,7 @@
 # If nis even and greater than 20 , print Not Weird
 
 
+
 n = int(input())
 if n % 2 == 0:
     if n in range(2,6):
