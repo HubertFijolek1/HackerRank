@@ -8,7 +8,6 @@ import os
 # The function is expected to return an INTEGER_ARRAY.
 # The function accepts INTEGER_ARRAY scores as parameter.
 #
-
 def breakingRecords(scores):
     min = scores[0]
     max = scores[0]
