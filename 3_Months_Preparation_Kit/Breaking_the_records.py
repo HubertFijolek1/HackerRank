@@ -10,6 +10,7 @@ import os
 #
 
 
+
 def breakingRecords(scores):
     min = scores[0]
     max = scores[0]
