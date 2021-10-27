@@ -9,8 +9,6 @@ import os
 # The function accepts INTEGER_ARRAY scores as parameter.
 #
 
-
-
 def breakingRecords(scores):
     min = scores[0]
     max = scores[0]
