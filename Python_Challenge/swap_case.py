@@ -8,6 +8,7 @@ def swap_case(s):
         else:
             new_string.append(i) 
     zdanie = ('').join(new_string) 
+    
     return zdanie
 
 if __name__ == '__main__':
