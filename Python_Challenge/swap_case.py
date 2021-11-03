@@ -7,8 +7,9 @@ def swap_case(s):
             new_string.append(i.upper())
         else:
             new_string.append(i) 
+            
     zdanie = ('').join(new_string) 
-    
+
     return zdanie
 
 
