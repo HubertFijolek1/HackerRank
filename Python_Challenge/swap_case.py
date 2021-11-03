@@ -10,6 +10,7 @@ def swap_case(s):
     zdanie = ('').join(new_string) 
     return zdanie
 
+
 if __name__ == '__main__':
     s = input()
     result = swap_case(s)
