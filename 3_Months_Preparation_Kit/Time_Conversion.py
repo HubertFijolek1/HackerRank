@@ -14,6 +14,7 @@ def timeConversion(s):
     ntime = ':'.join(time)
     return str(ntime[:-2])
     
+    
 if __name__ == '__main__':
     f = open(os.environ['OUTPUT_PATH'], 'w')
 
