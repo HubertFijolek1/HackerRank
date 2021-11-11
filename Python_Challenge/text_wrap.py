@@ -1,3 +1,14 @@
+#Sample Input 
+# ABCDEFGHIJKLIMNOQRSTUVWXYZ
+# 4
+#Sample Output
+# ABCD
+# EFGH
+# IJKL
+# IMNO
+# QRST
+# UVWX
+# YZ
 def wrap(string, max_width):
     for i in range(0,len(string)+1,max_width):
         result=string[i:i+max_width]
