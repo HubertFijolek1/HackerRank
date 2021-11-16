@@ -15,6 +15,7 @@
 
 import os
 
+
 def timeConversion(s):
     time = s.split(":")
     if s[-2:] == "PM":
