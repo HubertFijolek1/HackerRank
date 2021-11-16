@@ -13,7 +13,6 @@
 # s='12:01:00AM'
 # Return '00:01:00'.
 import os
-import sys
 
 def timeConversion(s):
     time = s.split(":")
