@@ -12,6 +12,7 @@
 
 # s='12:01:00AM'
 # Return '00:01:00'.
+
 import os
 
 def timeConversion(s):
