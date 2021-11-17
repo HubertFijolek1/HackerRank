@@ -1,4 +1,12 @@
-#
+
+# Function Description
+
+# Complete the function matchingStrings in the editor below. The function must return an array of integers representing the frequency of occurrence of each query string in strings.
+
+# matchingStrings has the following parameters:
+
+# string strings[n] - an array of strings to search
+# string queries[q] - an array of query strings
 # Complete the 'matchingStrings' function below.
 #
 # The function is expected to return an INTEGER_ARRAY.
