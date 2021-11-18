@@ -8,6 +8,8 @@ import os
 # The function accepts INTEGER_ARRAY a as parameter.
 #
 
+# Given an array of integers, where all elements but one occur twice, find the unique element.
+
 def lonelyinteger(a):
     # Write your code here
     return [i for i in a if a.count(i) ==1][0]
