@@ -13,6 +13,10 @@ import sys
 # The function accepts INTEGER_ARRAY grades as parameter.
 #
 
+# Sam is a professor at the university and likes to round each student's grade according to these rules:
+
+# If the difference between the grade and the next multiple of 5 is less than 3, round grade up to the next multiple of .
+# If the value of grade is less 38 than , no rounding occurs as the result will still be a failing grade.
 def gradingStudents(grades):
     # Write your code here
     round_list = []
