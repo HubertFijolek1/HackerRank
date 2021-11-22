@@ -6,6 +6,19 @@ import os
 # The function is expected to return an INTEGER_ARRAY.
 # The function accepts INTEGER_ARRAY arr as parameter.
 #
+# Challenge
+# Given a list of integers, count and return the number of times each value appears as an array of integers.
+
+# Function Description
+
+# Complete the countingSort function in the editor below.
+
+# countingSort has the following parameter(s):
+
+# arr[n]: an array of integers
+# Returns
+
+# int[100]: a frequency array
 
 def countingSort(arr):
     
