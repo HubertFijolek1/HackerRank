@@ -1,11 +1,4 @@
 #!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
 #
 # Complete the 'sockMerchant' function below.
 #
@@ -14,6 +7,8 @@ import sys
 #  1. INTEGER n
 #  2. INTEGER_ARRAY ar
 #
+
+# There is a large pile of socks that must be paired by color. Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
 
 def sockMerchant(n, ar):
     # Write your code here
