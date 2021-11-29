@@ -1,17 +1,12 @@
 #!/bin/python3
+# Given an array of stick lengths, use 3 of them to construct a non-degenerate triangle with the maximum possible perimeter. Return an array of the lengths of its sides as 3 integers in non-decreasing order.
 
-import math
-import os
-import random
-import re
-import sys
+# If there are several valid triangles having the maximum perimeter:
 
-#
-# Complete the 'maximumPerimeterTriangle' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts INTEGER_ARRAY sticks as parameter.
-#
+# Choose the one with the longest maximum side.
+# If more than one has that maximum, choose from them the one with the longest minimum side.
+# If more than one has that maximum as well, print any one them.
+# If no non-degenerate triangle exists, return [-1].
 
 def maximumPerimeterTriangle(sticks):
     sticks.sort()
@@ -25,7 +20,6 @@ def maximumPerimeterTriangle(sticks):
 
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     n = int(input().strip())
 
@@ -33,7 +27,4 @@ if __name__ == '__main__':
 
     result = maximumPerimeterTriangle(sticks)
 
-    fptr.write(' '.join(map(str, result)))
-    fptr.write('\n')
-
-    fptr.close()
+    print(result)
